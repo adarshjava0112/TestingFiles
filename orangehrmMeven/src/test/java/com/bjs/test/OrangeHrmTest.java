@@ -24,7 +24,7 @@ l.clickSubmitButton();
 
 HomePage h=new HomePage(d);
 h.clickoInc();
-System.out.println("GitHub");
+
 
 	}
 
