@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-25T14:59:05 IST" name="Suite" finished-at="2023-10-25T14:59:38 IST" duration-ms="33121">
+    <groups>
+    </groups>
+    <test started-at="2023-10-25T14:59:05 IST" name="Test2" finished-at="2023-10-25T14:59:22 IST" duration-ms="17180">
+      <class name="com.bjs.testing.CrossBrowserTesting">
+        <test-method is-config="true" signature="options(java.lang.String)[pri:0, instance:com.bjs.testing.CrossBrowserTesting@16eb3ea3]" started-at="2023-10-25T14:59:05 IST" name="options" finished-at="2023-10-25T14:59:10 IST" duration-ms="5605" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- options -->
+        <test-method signature="testMethod()[pri:0, instance:com.bjs.testing.CrossBrowserTesting@16eb3ea3]" started-at="2023-10-25T14:59:10 IST" name="testMethod" finished-at="2023-10-25T14:59:22 IST" duration-ms="11422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+      </class> <!-- com.bjs.testing.CrossBrowserTesting -->
+    </test> <!-- Test2 -->
+    <test started-at="2023-10-25T14:59:05 IST" name="Test1" finished-at="2023-10-25T14:59:38 IST" duration-ms="33120">
+      <class name="com.bjs.testing.CrossBrowserTesting">
+        <test-method is-config="true" signature="options(java.lang.String)[pri:0, instance:com.bjs.testing.CrossBrowserTesting@2af004b]" started-at="2023-10-25T14:59:05 IST" name="options" finished-at="2023-10-25T14:59:15 IST" duration-ms="10503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- options -->
+        <test-method signature="testMethod()[pri:0, instance:com.bjs.testing.CrossBrowserTesting@2af004b]" started-at="2023-10-25T14:59:15 IST" name="testMethod" finished-at="2023-10-25T14:59:38 IST" duration-ms="22530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+      </class> <!-- com.bjs.testing.CrossBrowserTesting -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
